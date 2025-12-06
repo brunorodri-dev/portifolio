@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Desenvolvedor Front-End</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navegacao">
+        <div class="contenedor-navegacao">
+            <div class="logo">Dev</div>
+            <ul class="menu">
+                <li><a href="#inicio" class="link-menu">Início</a></li>
+                <li><a href="#sobre" class="link-menu">Sobre</a></li>
+                <li><a href="#projetos" class="link-menu">Projetos</a></li>
+                <li><a href="#habilidades" class="link-menu">Habilidades</a></li>
+                <li><a href="#contato" class="link-menu">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="inicio" class="secao-hero">
+        <div class="contenedor">
+            <div class="contenedor-hero">
+                <img src="img/Perfil.jpg" alt="Foto de perfil" class="foto-perfil">
+                <h1 class="titulo-principal">Desenvolvedor Front-End</h1>
+                <p class="subtitulo">Estudante de Sistemas para Internet apaixonado por criar experiências digitais que fazem a diferença</p>
+                <button class="botao botao-primario" onclick="document.getElementById('sobre').scrollIntoView({behavior: 'smooth'})">Conhecer Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="secao-sobre">
+        <div class="contenedor">
+            <h2 class="titulo-secao">Sobre Mim</h2>
+            <div class="contenedor-sobre">
+                <div class="texto-sobre">
+                    <p>Sou estudante de Sistemas para Internet e desenvolvedor front-end apaixonado por criar experiências digitais que fazem a diferença. Com 6 meses de experiência prática, tenho me dedicado a construir interfaces intuitivas e responsivas.</p>
+                    <p>Minha jornada na programação começou com a curiosidade de entender como a web funciona, e hoje me dedico a transformar designs em código limpo e eficiente. Estou sempre em busca de novos desafios que me permitam crescer profissionalmente.</p>
+                    <p>Acredito que a combinação de criatividade, conhecimento técnico e trabalho em equipe são essenciais para criar produtos digitais de qualidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="diferenciais" class="secao-diferenciais">
+        <div class="contenedor">
+            <h2 class="titulo-secao">Diferenciais</h2>
+            <div class="grade-diferenciais">
+                <div class="cartao-diferencial">
+                    <h3>Desenvolvimento Front-End</h3>
+                    <p>Criação de interfaces modernas e responsivas com as melhores práticas do mercado.</p>
+                </div>
+                <div class="cartao-diferencial">
+                    <h3>Aprendizado Contínuo</h3>
+                    <p>Sempre em busca de novas tecnologias e metodologias para entregar soluções inovadoras.</p>
+                </div>
+                <div class="cartao-diferencial">
+                    <h3>Trabalho em Equipe</h3>
+                    <p>Experiência colaborativa em projetos acadêmicos e profissionais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="secao-projetos">
+        <div class="contenedor">
+            <h2 class="titulo-secao">Projetos</h2>
+            <div class="grade-projetos">
+                <div class="cartao-projeto">
+                    <div class="imagem-projeto" style="background-image: url('img/wallpaper_reikai.png'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="informacoes-projeto">
+                        <h3>Reikai Sagrado</h3>
+                        <p>Projeto pessoal desenvolvido com foco em design responsivo e interatividade. Aplicação web moderna que demonstra conhecimento em HTML, CSS e JavaScript.</p>
+                        <a href="https://raikai-sagrado.vercel.app/" target="_blank" class="link-projeto">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="secao-habilidades">
+        <div class="contenedor">
+            <h2 class="titulo-secao">Habilidades</h2>
+            <div class="grade-habilidades">
+                <div class="coluna-habilidades">
+                    <h3 class="titulo-categoria">Front-End</h3>
+                    <ul class="lista-habilidades">
+                        <li><i class="fab fa-html5"></i> HTML5</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                    </ul>
+                </div>
+                <div class="coluna-habilidades">
+                    <h3 class="titulo-categoria">Ferramentas</h3>
+                    <ul class="lista-habilidades">
+                        <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
+                        <li><i class="fas fa-code"></i> VS Code</li>
+                        <li><i class="fas fa-pen-nib"></i> Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="secao-contato">
+        <div class="contenedor">
+            <h2 class="titulo-secao">Vamos Conversar?</h2>
+            <p class="texto-contato">Estou sempre aberto a novas oportunidades e colaborações</p>
+            <div class="links-contato">
+                <a href="mailto:seu@email.com" class="botao botao-primario">Enviar Email</a>
+                <div class="redes-sociais">
+                    <a href="https://github.com/brunorodri-dev" target="_blank" class="icone-rede" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/brodriiz" target="_blank" class="icone-rede" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/bruno-rodrigues-santos-ba6824372/" target="_blank" class="icone-rede" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <p>Desenvolvido com dedicação. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
