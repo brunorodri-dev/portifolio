@@ -1,3 +1,6 @@
+<img width="1739" height="782" alt="image" src="https://github.com/user-attachments/assets/d6c3c714-ee76-4f53-be7d-05b6de3e7c79" />
+
+
 # Portfólio — Desenvolvedor Front‑End
 
 > Portfólio estático criado com HTML, CSS e JavaScript. Layout responsivo, tema escuro e foco em usabilidade e apresentação de projetos.
@@ -77,3 +80,4 @@ Se quiser, eu posso:
 - adicionar um `LICENSE` (por exemplo MIT),
 - criar um `index.html` otimizado para GitHub Pages,
 - gerar uma imagem de preview (`screenshot.png`) e incluir no README.
+
