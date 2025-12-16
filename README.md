@@ -69,15 +69,6 @@ Certifique-se de que `img/background.webp` e `img/Reikai.jpg` (ou `img/wallpaper
 - Há um efeito de hover no `hero` que aplica um leve zoom no wallpaper.
 - Para compatibilidade máxima em servidores de produção, sirva os arquivos estáticos (por exemplo, Vercel, Netlify, GitHub Pages).
 
-## Licença
 
-Este repositório não inclui uma licença explícita. Se pretende compartilhar publicamente, adicione uma licença (por exemplo, `MIT`) conforme desejar.
 
----
-
-Se quiser, eu posso:
-
-- adicionar um `LICENSE` (por exemplo MIT),
-- criar um `index.html` otimizado para GitHub Pages,
-- gerar uma imagem de preview (`screenshot.png`) e incluir no README.
 
